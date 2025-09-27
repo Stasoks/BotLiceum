@@ -59,7 +59,7 @@ namespace BelorusVpered
 
         static async Task Main()
         {
-            _botClient = new TelegramBotClient("6875254430:AAE96Rtr50D1Gg3HhqgFurHDo6BlQ79-pPg"); 
+            _botClient = new TelegramBotClient(""); 
             _receiverOptions = new ReceiverOptions
             {
                 AllowedUpdates = new[]
